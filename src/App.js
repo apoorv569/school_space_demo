@@ -1,6 +1,7 @@
 
 import Header from "./Components/Header";
 import Sidebar from "./Components/Sidebar";
+import StudentTable from "./Components/StudentTable";
 
 export default function App() {
     return (
@@ -14,6 +15,13 @@ export default function App() {
 
                 <div>
                     <Sidebar />
+                </div>
+
+                <div style={{
+                    marginLeft: 310,
+                }}
+                >
+                  <StudentTable />
                 </div>
             </div>
     );
