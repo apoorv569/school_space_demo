@@ -2,13 +2,10 @@ import * as React from 'react';
 
 import {
     Box,
-    Button,
     Typography,
 } from '@mui/material';
 
-import {
-    Add as AddIcon,
-} from '@mui/icons-material';
+import AddStudentForm from './Forms/AddStudentForm';
 
 export default function Header() {
     return (
@@ -28,12 +25,7 @@ export default function Header() {
                 Students
             </Typography>
 
-            <Button
-                variant="contained"
-                startIcon={<AddIcon />}
-            >
-                Add
-            </Button>
+            <AddStudentForm />
         </Box>
     );
 }
