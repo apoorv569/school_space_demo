@@ -1,0 +1,60 @@
+{
+    "students": [
+        {
+            "id": 1,
+            "student_name": "Robert Fox",
+            "standard": "8th",
+            "result": "Passed",
+            "score": "78/100",
+            "grade": "Excellent"
+        },
+        {
+            "id": 2,
+            "student_name": "Ralph Edwards",
+            "standard": "7th",
+            "result": "Failed",
+            "score": "20/100",
+            "grade": "Poor"
+        },
+        {
+            "id": 3,
+            "student_name": "Esther Howard",
+            "standard": "9th",
+            "result": "Passed",
+            "score": "70/100",
+            "grade": "Average"
+        },
+        {
+            "id": 4,
+            "student_name": "Eleanor Pena",
+            "standard": "8th",
+            "result": "Passed",
+            "score": "60/100",
+            "grade": "Average"
+        },
+        {
+            "id": 5,
+            "student_name": "Arlena McCoy",
+            "standard": "7th",
+            "result": "Passed",
+            "score": "85/100",
+            "grade": "Excellent"
+        },
+        {
+            "id": 6,
+            "student_name": "Marvin McKinney",
+            "standard": "9th",
+            "result": "Failed",
+            "score": "25/100",
+            "grade": "Poor"
+        },
+        {
+            "id": 7,
+            "student_name": "Wade Warren",
+            "standard": "7th",
+            "result": "Passed",
+            "score": "90/100",
+            "grade": "Excellent"
+        }
+    ]
+}
