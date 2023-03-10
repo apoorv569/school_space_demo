@@ -15,8 +15,8 @@ import {
 
 import {
     Edit as EditIcon,
-    Delete as DeleteIcon,
 } from '@mui/icons-material';
+import DeleteStudentForm from './Forms/DeleteStudentForm';
 
 import useFetch from '../Utils/useFetch';
 
@@ -120,14 +120,9 @@ export default function StudentTable() {
                                             <EditIcon />
                                         </IconButton>
 
-                                        <IconButton
-                                            sx={{
-                                                width: 20,
-                                                height: 20,
-                                            }}
-                                        >
-                                            <DeleteIcon />
-                                        </IconButton>
+                                        <DeleteStudentForm
+                                            student={student}
+                                        />
                                     </Stack>
                                 }
                             </TableCell>
