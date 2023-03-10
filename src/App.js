@@ -1,3 +1,8 @@
+import {
+    BrowserRouter as Router,
+    Route,
+    Routes,
+} from "react-router-dom";
 
 import Header from "./Components/Header";
 import Sidebar from "./Components/Sidebar";
@@ -5,6 +10,7 @@ import StudentTable from "./Components/StudentTable";
 
 export default function App() {
     return (
+        <Router>
             <div>
                 <div style={{
                     marginLeft: 280,
@@ -21,8 +27,11 @@ export default function App() {
                     marginLeft: 310,
                 }}
                 >
-                  <StudentTable />
+                    <Routes>
+                        <Route path='/students' element={<StudentTable />} />
+                    </Routes>
                 </div>
             </div>
+        </Router>
     );
 }
