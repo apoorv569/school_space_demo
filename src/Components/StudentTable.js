@@ -10,12 +10,9 @@ import {
     Paper,
     Chip,
     Stack,
-    IconButton,
 } from '@mui/material';
 
-import {
-    Edit as EditIcon,
-} from '@mui/icons-material';
+import EditStudentForm from './Forms/EditStudentForm';
 import DeleteStudentForm from './Forms/DeleteStudentForm';
 
 import useFetch from '../Utils/useFetch';
@@ -111,15 +108,9 @@ export default function StudentTable() {
                                         spacing={2}
                                         direction="row"
                                     >
-                                        <IconButton
-                                            sx={{
-                                                width: 20,
-                                                height: 20,
-                                            }}
-                                        >
-                                            <EditIcon />
-                                        </IconButton>
-
+                                        <EditStudentForm
+                                            student={student}
+                                        />
                                         <DeleteStudentForm
                                             student={student}
                                         />
